@@ -28,4 +28,13 @@
 #       enabled: "ON"
 
 en:
+  actual_locale: "English (international)"
   hello: "Hello world"
+  links:
+    edit: "Edit"
+    show: "Show"
+    delete: "Delete"
+    back: "Back"
+    new: "New"
+    coins: "Coins"
+    mining_types: "Mining types"
