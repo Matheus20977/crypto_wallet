@@ -1,0 +1,28 @@
+<p style="color: green"> <%= notice %> </p>
+
+<h1>Moedas</h1>
+
+<div id="coins">
+  <table>
+    <thead>
+      <tr>
+        <th>Descrição</th>
+        <th>Sigla</th>
+        <th>Imagem</th>
+        <th colspan="3"></th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <% @coins.each do |coin| %>
+        <tr>
+          <%= render coin %>
+
+          <td> <%= link_to "Mostrar moeda", coin %> | </td>
+          <td> <%= link_to "Editar moeda", edit_coin_path(coin) %> </td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+
+<%= link_to "Cadastrar nova moeda", new_coin_path %>
