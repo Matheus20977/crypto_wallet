@@ -7,3 +7,5 @@ pin "@hotwired/stimulus-loading", to: "stimulus-loading.js"
 pin_all_from "app/javascript/controllers", under: "controllers"
 pin "jquery", to: "https://code.jquery.com/jquery-3.7.1.js"
 pin "notify", to: "https://rawgit.com/notifyjs/notifyjs/master/dist/notify.js"
+pin "bootstrap", to: "bootstrap.min.js", preload: true
+pin "@popperjs/core", to: "popper.js", preload: true

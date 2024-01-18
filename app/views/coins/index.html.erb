@@ -3,7 +3,7 @@
 <h1>Moedas</h1>
 
 <div id="coins">
-  <table>
+  <table class="table table-hover">
     <thead>
       <tr>
         <th> <%= @coins.human_attribute_name(:description) %> </th>
@@ -18,7 +18,7 @@
         <tr>
           <%= render coin %>
 
-          <td> <%= link_to t("links.show"), coin %> | </td>
+          <td> <%= link_to t("links.show"), coin %> </td>
           <td> <%= link_to t("links.edit"), edit_coin_path(coin) %> </td>
         </tr>
       <% end %>

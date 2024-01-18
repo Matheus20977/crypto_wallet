@@ -48,6 +48,7 @@ gem "pry-rails"
 gem "tty-spinner"
 gem 'rails-i18n'
 gem 'sass-rails'
+gem 'bootstrap', '~> 5.3.2'
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
