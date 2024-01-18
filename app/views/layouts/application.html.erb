@@ -9,7 +9,9 @@
     <%= stylesheet_link_tag params[:controller], "data-turbo-track": "reload" %>
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= stylesheet_link_tag "scaffolds", "data-turbo-track": "reload" %>
+
     <%= javascript_importmap_tags %>
+    <%= javascript_include_tag params[:controller], "data-turbolinks-track": "reload" %>
   </head>
 
   <body>
