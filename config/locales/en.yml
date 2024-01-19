@@ -33,6 +33,11 @@ en:
   messages:
     welcome: "This is Crypto Wallet, an app to register and keep up with your criptcurrencies"
     menu: "To start, choose one of the options below"
+    confirm: "Are you sure?"
+  notice:
+    created: "Created successfully!"
+    updated: "Updated successfully!"
+    destroyed: "Destroyed successfully!"
   hello: "Hello world"
   links:
     edit: "Edit"
