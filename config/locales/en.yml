@@ -28,7 +28,11 @@
 #       enabled: "ON"
 
 en:
-  actual_locale: "English (international)"
+  current_locale: "English (international)"
+  welcome: "Welcome!"
+  messages:
+    welcome: "This is Crypto Wallet, an app to register and keep up with your criptcurrencies"
+    menu: "To start, choose one of the options below"
   hello: "Hello world"
   links:
     edit: "Edit"
@@ -36,5 +40,3 @@ en:
     delete: "Delete"
     back: "Back"
     new: "New"
-    coins: "Coins"
-    mining_types: "Mining types"
