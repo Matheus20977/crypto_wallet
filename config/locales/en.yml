@@ -40,3 +40,13 @@ en:
     delete: "Delete"
     back: "Back"
     new: "New"
+    home: "Home"
+  new:
+    coin: "New coin"
+    mining_type: "New mining type"
+  editing:
+    coin: "Editing coin"
+    mining_type: "Editing mining type"
+  showing:
+    coin: "Showing coin"
+    mining_type: "Showing mining type"
